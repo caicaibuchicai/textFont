@@ -22,7 +22,7 @@
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kc6-54-qhb">
                     <rect key="frame" x="20" y="64" width="374" height="678"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    <string key="text">永远不要与客户起冲突，听话照做，以身做则，不是听我说，而是跟我做，令行禁止，快速响应，事事反馈，实干，反对浮夸，经常批评与自我批评，不当面赞扬上级，不可以给上级送礼，不可以请上级吃饭，杜绝拍马屁，坦诚相待，直言不讳，对事不对人，善意理解他人意思，尊重他人，把人当人看，积极传播正能量，互相帮助消化负能量，体面告别，不互撕，守时，虚心学习，勤于思考，善于总结，早睡早起，积极参与体育锻炼，简单行事，积极主动参与公司事务，敢于担当，同甘共苦，保质保量完成任务</string>
+                    <string key="text">谁都会犯错误， 所以人们才在铅笔的另一头装上橡皮</string>
                     <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                     <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="20"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
