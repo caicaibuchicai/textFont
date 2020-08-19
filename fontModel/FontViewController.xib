@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FontViewController" customModule="fontModel" customModuleProvider="target">
+            <connections>
+                <outlet property="textLab" destination="fgO-Rb-DzR" id="3YB-qH-R7F"/>
+                <outlet property="textView" destination="Kc6-54-qhb" id="nmR-12-RNX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kc6-54-qhb">
+                    <rect key="frame" x="20" y="64" width="374" height="678"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <string key="text">永远不要与客户起冲突，听话照做，以身做则，不是听我说，而是跟我做，令行禁止，快速响应，事事反馈，实干，反对浮夸，经常批评与自我批评，不当面赞扬上级，不可以给上级送礼，不可以请上级吃饭，杜绝拍马屁，坦诚相待，直言不讳，对事不对人，善意理解他人意思，尊重他人，把人当人看，积极传播正能量，互相帮助消化负能量，体面告别，不互撕，守时，虚心学习，勤于思考，善于总结，早睡早起，积极参与体育锻炼，简单行事，积极主动参与公司事务，敢于担当，同甘共苦，保质保量完成任务</string>
+                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fA-Yr-x8R">
+                    <rect key="frame" x="10" y="752" width="30" height="34"/>
+                    <color key="backgroundColor" red="0.71758550409999999" green="0.71768778560000002" blue="0.71755331749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="-">
+                        <color key="titleColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="jian:" destination="-1" eventType="touchUpInside" id="jyQ-nz-EQJ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgO-Rb-DzR">
+                    <rect key="frame" x="45" y="758.5" width="18.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="字体大小" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8l-H1-axv">
+                    <rect key="frame" x="19.5" y="796" width="69.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Z8-ww-oOE">
+                    <rect key="frame" x="68.5" y="752" width="30" height="34"/>
+                    <color key="backgroundColor" red="0.71764705880000002" green="0.71764705880000002" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="+">
+                        <color key="titleColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="jia:" destination="-1" eventType="touchUpInside" id="90c-25-6Ge"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0fA-Yr-x8R" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="0Dn-Mf-KLl"/>
+                <constraint firstItem="0fA-Yr-x8R" firstAttribute="top" secondItem="Kc6-54-qhb" secondAttribute="bottom" constant="10" id="GEE-5C-Iha"/>
+                <constraint firstItem="Kc6-54-qhb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="HOZ-yY-z14"/>
+                <constraint firstItem="fgO-Rb-DzR" firstAttribute="centerY" secondItem="0fA-Yr-x8R" secondAttribute="centerY" id="Vqm-6V-EOY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kc6-54-qhb" secondAttribute="bottom" constant="120" id="VvM-DK-vOT"/>
+                <constraint firstItem="Y8l-H1-axv" firstAttribute="top" secondItem="0fA-Yr-x8R" secondAttribute="bottom" constant="10" id="av7-PY-0PD"/>
+                <constraint firstItem="Y8l-H1-axv" firstAttribute="centerX" secondItem="fgO-Rb-DzR" secondAttribute="centerX" id="iQ0-N2-ufk"/>
+                <constraint firstItem="fgO-Rb-DzR" firstAttribute="leading" secondItem="0fA-Yr-x8R" secondAttribute="trailing" constant="5" id="jZ8-H0-mIZ"/>
+                <constraint firstItem="4Z8-ww-oOE" firstAttribute="centerY" secondItem="0fA-Yr-x8R" secondAttribute="centerY" id="lMn-fS-VJw"/>
+                <constraint firstItem="Kc6-54-qhb" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="rkV-ua-lDc"/>
+                <constraint firstItem="4Z8-ww-oOE" firstAttribute="leading" secondItem="fgO-Rb-DzR" secondAttribute="trailing" constant="5" id="xIl-6c-d30"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kc6-54-qhb" secondAttribute="trailing" constant="20" id="yFu-pg-XIw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="133.92857142857142"/>
+        </view>
+    </objects>
+</document>
